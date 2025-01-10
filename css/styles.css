@@ -20,8 +20,7 @@ h1, h2, h3, h4, h5, h6, p {
 img {
     display: block;
 }
-.container {
-    display: flex;
+.container {    
     max-width: 100%;
     padding-left: 156px;
     padding-right: 0;
@@ -314,7 +313,7 @@ img {
     padding: 100px 0;
 }
 .footer-logo-link {
-    display: inline-block !important;    
+    display: inline-block;    
     margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
