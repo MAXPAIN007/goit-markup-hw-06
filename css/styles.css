@@ -38,7 +38,8 @@ img {
 .header .container {
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;    
+    padding: 0 15px;
+    display: flex;
 }
 .nav {
     display: flex;     
@@ -115,11 +116,11 @@ img {
     align-items: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;    
+    justify-content: center;
+    padding: 188px 0;
 }
 .section-one-slogan {
-    color: #FFFFFF;
-    width: auto;
+    color: #FFFFFF;   
     font-family: "Roboto", sans-serif;
     font-size: 56px;
     font-weight: 700;    
@@ -128,16 +129,20 @@ img {
     vertical-align: top;
     line-height: 1.07;
     align-items: center;
+    max-width: 496px;
 }
 .section-one-button {
+    display: block;
     color: #FFFFFF;
-    width: auto;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     font-style: normal;
     letter-spacing: 0.04em;
-    vertical-align: top;
     line-height: 24px;    
     text-align: center;
     background-color: #4D5AE5;
@@ -156,6 +161,7 @@ img {
     align-items: center;
     display: flex;    
     justify-content: center;
+    padding: 120px 0;
 }
 .visually-hidden {
     position: absolute;
@@ -172,8 +178,11 @@ img {
 .fitures-list {
     align-items: center;
     display: flex;
+    gap: 24px;
 }
-.fitures-item {}
+.fitures-item {
+    width: calc((100% - 72px) / 4);
+}
 .fitures-subtitle {
     color: #2E2F42;
     width: auto;
@@ -185,6 +194,7 @@ img {
     vertical-align: top;    
     text-align: left;
     line-height: 1.2;
+    margin-bottom: 8px;
 }
 .fitures-desc {
     color: #434455;
