@@ -29,6 +29,7 @@ img {
     margin-right: 0;
 }
 
+/* ===============================HEADER=============================== */
 .header {
     display: flex;
     align-items: center;
@@ -109,7 +110,7 @@ img {
 
 /* main {} */
 
-
+/* ===============================SECTION=============================== */
 .section-one {
     background-color: #2E2F42;
     align-items: center;
@@ -150,7 +151,7 @@ img {
     background-color: #404BBF;
 }
 
-
+/* ===============================SECTION=============================== */
 .section-two {
     background-color: #FFFFFF;
     align-items: center;
@@ -199,7 +200,7 @@ img {
     line-height: 24px;       
 }
 
-
+/* ===============================SECTION=============================== */
 .our-team-section {
     background-color: #F4F4FD;
     align-items: center;    
@@ -250,7 +251,7 @@ img {
     line-height: 24px;
 }
 
-
+/* ===============================SECTION=============================== */
 .portfolio-section {
     background-color: #FFFFFF;
     align-items: center;
@@ -307,13 +308,14 @@ img {
     line-height: 24px;
 }
 
-
+/* ===============================FOOTER=============================== */
 .footer {
     background-color: #2E2F42;
     padding: 100px 0;
 }
 .footer-logo-link {
     display: inline-block;
+    align-self: flex-start;
     margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
