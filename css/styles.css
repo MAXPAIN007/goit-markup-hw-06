@@ -348,7 +348,6 @@ img {
 
 /* ===============================FOOTER=============================== */
 .footer {
-    display: flex;    
     background-color: #2E2F42;
     padding: 100px 0;
     margin: 0 auto;
@@ -356,12 +355,8 @@ img {
 }
 
 .footer .container {
-    display: flex;
-    flex-direction: column;
     max-width: 1158px;
-    margin-left: 156px;
-    padding: 0 15px;
-    gap: 16px;
+    margin-left: 156px;    
     width: 264px;
 }
 .footer-logo-link {
