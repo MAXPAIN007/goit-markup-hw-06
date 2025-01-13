@@ -266,12 +266,9 @@ main {}
 .portfolio-list {
     justify-content: center;
     align-items: center;
-    display: flex;
-    grid-template-columns: repeat(3, 1fr);    
-    flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px;
-    padding: 0 15px;
+    display: flex;        
+    flex-wrap: wrap;    
+    gap: 48px 24px;    
 }
 .portfolio-item {
     background-color: #FFFFFF;
