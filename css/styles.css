@@ -219,7 +219,8 @@ main {}
 .employee-img {    
 }
 .employee-item-description {    
-    padding: 32px 0;    
+    padding: 32px 0;
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .employee-title {
     color: #2E2F42;    
@@ -254,8 +255,7 @@ main {}
 }   
 .portfolio-title {
     color: #2E2F42;    
-    font-size: 36px;
-    
+    font-size: 36px;    
     text-transform: capitalize;
     letter-spacing: 0.02em;
     vertical-align: top;
@@ -266,9 +266,8 @@ main {}
 .portfolio-list {
     justify-content: center;
     align-items: center;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
     display: flex;
+    grid-template-columns: repeat(3, 1fr);    
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
