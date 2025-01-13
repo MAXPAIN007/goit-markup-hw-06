@@ -90,8 +90,7 @@ img {
     color: #434455;    
     font-size: 16px;       
     letter-spacing: 0.02em;
-    text-align: left;
-    vertical-align: top;
+    text-align: left;    
     line-height: 1.5;
     font-style: normal;        
 }
@@ -109,13 +108,10 @@ main {}
 }
 .section-one-slogan {
     color: #FFFFFF;   
-    font-size: 56px;
-    font-weight: 700;    
+    font-size: 56px;      
     letter-spacing: 0.02em;
-    text-align: center;
-    vertical-align: top;
-    line-height: 1.07;
-    align-items: center;
+    text-align: center;    
+    line-height: 1.07;    
     max-width: 496px;
     margin: 0 auto;
     margin-bottom: 48px;        
@@ -174,8 +170,7 @@ main {}
     color: #2E2F42;   
     font-size: 20px;
     font-weight: 500;    
-    letter-spacing: 0.02em;
-    vertical-align: top;    
+    letter-spacing: 0.02em;        
     text-align: left;
     line-height: 1.2;
     margin-bottom: 8px;
@@ -183,8 +178,7 @@ main {}
 .fitures-desc {
     color: #434455;    
     font-size: 16px;      
-    letter-spacing: 0.02em;
-    vertical-align: top;
+    letter-spacing: 0.02em;    
     text-align: left;
     line-height: 1.5;       
 }
@@ -199,8 +193,7 @@ main {}
     color: #2E2F42;       
     font-size: 36px;    
     text-transform: capitalize;
-    letter-spacing: 0.02em;
-    vertical-align: top;
+    letter-spacing: 0.02em;    
     text-align: center;
     line-height: 1.11;
     margin-bottom: 72px;    
@@ -226,21 +219,17 @@ main {}
     color: #2E2F42;    
     font-size: 20px;
     font-weight: 500;    
-    letter-spacing: 0.02em;
-    vertical-align: top;
+    letter-spacing: 0.02em;    
     text-align: center;
     line-height: 1.2;    
     margin-bottom: 8px;
 }
 .employee-desc {
-    color: #434455;
-    width: auto;
+    color: #434455;    
     font-size: 16px;       
-    letter-spacing: 0.02em;
-    vertical-align: top;
+    letter-spacing: 0.02em;    
     text-align: center;
-    line-height: 24px;
-    text-align: center;
+    line-height: 24px;    
 }
 
 /* ===============================SECTION-FOUR=============================== */
@@ -257,8 +246,7 @@ main {}
     color: #2E2F42;    
     font-size: 36px;    
     text-transform: capitalize;
-    letter-spacing: 0.02em;
-    vertical-align: top;
+    letter-spacing: 0.02em;    
     text-align: center;
     line-height: 1.11;
     margin-bottom: 72px;
@@ -284,8 +272,7 @@ main {}
     color: #2E2F42;    
     font-size: 20px;
     font-weight: 500;    
-    letter-spacing: 0.02em;
-    vertical-align: top;
+    letter-spacing: 0.02em;    
     text-align: left;
     line-height: 1.2;
     margin-bottom: 8px;
@@ -293,8 +280,7 @@ main {}
 .portfolio-desc {
     color: #434455;    
     font-size: 16px;       
-    letter-spacing: 0.02em;
-    vertical-align: top;
+    letter-spacing: 0.02em;    
     text-align: left;
     line-height: 1.5;
 }
@@ -312,8 +298,7 @@ main {}
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1.17;
-    letter-spacing: 0.03em;
-    vertical-align: middle;
+    letter-spacing: 0.03em;    
     text-align: left;
     color: #4D5AE5;
 }
@@ -323,8 +308,7 @@ main {}
 .footer-text {
     color: #F4F4FD;    
     font-size: 16px;       
-    letter-spacing: 0.02em;
-    vertical-align: top;
+    letter-spacing: 0.02em;    
     text-align: left;
     line-height: 1.5; 
     width: 264px;   
