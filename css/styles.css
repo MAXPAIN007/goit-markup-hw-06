@@ -78,8 +78,7 @@ img {
 .nav-link:focus {
     color: #404bbf;
 }
-.address {    
-    font-style: normal;
+.address {        
     margin-left: auto;
 }
 .address-list { 
@@ -89,13 +88,12 @@ img {
 }
 .address-link {
     color: #434455;    
-    font-size: 16px;
-    font-weight: 400;
-    font-style: normal;
+    font-size: 16px;       
     letter-spacing: 0.02em;
     text-align: left;
     vertical-align: top;
-    line-height: 1.5;        
+    line-height: 1.5;
+    font-style: normal;        
 }
 .address-link:hover, 
 .address-link:focus {
@@ -175,8 +173,7 @@ main {}
 .fitures-subtitle {
     color: #2E2F42;   
     font-size: 20px;
-    font-weight: 500;
-    font-style: normal;
+    font-weight: 500;    
     letter-spacing: 0.02em;
     vertical-align: top;    
     text-align: left;
@@ -185,9 +182,7 @@ main {}
 }
 .fitures-desc {
     color: #434455;    
-    font-size: 16px;
-    font-weight: 400;
-    font-style: normal;
+    font-size: 16px;      
     letter-spacing: 0.02em;
     vertical-align: top;
     text-align: left;
@@ -202,8 +197,7 @@ main {}
 }
 .our-team-title {
     color: #2E2F42;       
-    font-size: 36px;
-    font-weight: 700;
+    font-size: 36px;    
     text-transform: capitalize;
     letter-spacing: 0.02em;
     vertical-align: top;
@@ -217,34 +211,29 @@ main {}
     padding: 0 15px;
 }
 .employee-item {
-    background-color: #FFFFFF; 
-    width: calc((100% - 72px) / 4);
+    background-color: #FFFFFF;    
     border-radius: 0px 0px 4px 4px;    
 }
-.employee-img {}
-.employee-item-description {
-    margin-top: 32px;
+.employee-img {
+    width: calc((100% - 72px) / 4);
+}
+.employee-item-description {    
     padding: 32px 0;    
 }
 .employee-title {
-    color: #2E2F42;
-    width: auto;
+    color: #2E2F42;    
     font-size: 20px;
-    font-weight: 500;
-    font-style: normal;
+    font-weight: 500;    
     letter-spacing: 0.02em;
     vertical-align: top;
     text-align: center;
-    line-height: 1.2;
-    text-align: center;
+    line-height: 1.2;    
     margin-bottom: 8px;
 }
 .employee-desc {
     color: #434455;
     width: auto;
-    font-size: 16px;
-    font-weight: 400;
-    font-style: normal;
+    font-size: 16px;       
     letter-spacing: 0.02em;
     vertical-align: top;
     text-align: center;
@@ -265,7 +254,7 @@ main {}
 .portfolio-title {
     color: #2E2F42;    
     font-size: 36px;
-    font-weight: 700;
+    
     text-transform: capitalize;
     letter-spacing: 0.02em;
     vertical-align: top;
@@ -297,8 +286,7 @@ main {}
 .portfolio-subtitle {
     color: #2E2F42;    
     font-size: 20px;
-    font-weight: 500;
-    font-style: normal;
+    font-weight: 500;    
     letter-spacing: 0.02em;
     vertical-align: top;
     text-align: left;
@@ -307,9 +295,7 @@ main {}
 }
 .portfolio-desc {
     color: #434455;    
-    font-size: 16px;
-    font-weight: 400;
-    font-style: normal;
+    font-size: 16px;       
     letter-spacing: 0.02em;
     vertical-align: top;
     text-align: left;
@@ -339,9 +325,7 @@ main {}
 }
 .footer-text {
     color: #F4F4FD;    
-    font-size: 16px;
-    font-weight: 400;
-    font-style: normal;
+    font-size: 16px;       
     letter-spacing: 0.02em;
     vertical-align: top;
     text-align: left;
