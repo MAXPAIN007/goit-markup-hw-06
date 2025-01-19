@@ -74,6 +74,7 @@ img {
     line-height: 1.5;
     padding: 24px 0;
     position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-link::after {
     display: block;
@@ -87,12 +88,12 @@ img {
     border-radius: 2px;    
     transform: scaleX(0);    
     transform-origin: center;   
-    /* transition: transform 0.3s ease, background-color 0.3s ease;     */
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);    
 }
 .nav-link:hover::after, 
 .nav-link:focus::after {
     color: #404bbf;
-    transform: scaleX(1);
+    transform: scaleX(1);    
 }
 .address {        
     margin-left: auto;
@@ -108,7 +109,8 @@ img {
     letter-spacing: 0.02em;
     text-align: left;    
     line-height: 1.5;
-    font-style: normal;        
+    font-style: normal;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-link:hover, 
 .address-link:focus {
@@ -157,10 +159,9 @@ main {}
     width: 233px;
     margin: 0 auto;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.hero-button:hover {
-    background-color: #404BBF;
-}
+.hero-button:hover,    
 .hero-button:focus {
     background-color: #404BBF;
 }
@@ -285,11 +286,17 @@ main {}
     justify-content: center;        
     align-items: center;        
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);        
-    cursor: pointer;        
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.item-socialmedia-icon:hover,
+.item-socialmedia-icon:focus {
+    background-color: #404bbf;
 }
 .socialmedia-icon{
     fill: #f4f4fd;
 }
+
 
 /* ===============================SECTION-FOUR=============================== */
 .portfolio-section {
@@ -321,8 +328,10 @@ main {}
     background-color: #FFFFFF;
     width: calc((100% - 2 * 24px) / 3);
     cursor: pointer;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
-.portfolio-item:hover {
+.portfolio-item:hover,
+.portfolio-item:focus {
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -395,6 +404,7 @@ main {}
 .footer .item-socialmedia-icon {
     gap: 16px;
 }
-.footer .item-socialmedia-icon:hover {
+.footer .item-socialmedia-icon:hover, 
+.footer .item-socialmedia-icon:focus{
     background-color: #31D0AA;
 }
