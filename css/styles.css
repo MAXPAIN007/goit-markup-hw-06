@@ -282,7 +282,7 @@ main {}
     letter-spacing: 0.02em;    
     text-align: center;
     line-height: 24px;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 .socialmedia-list{
     display: flex;    
