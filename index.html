@@ -454,15 +454,19 @@
                     </div>
                 </div>
                 <div class="modal-field textarea-field">
-                    <label for="message" class="label message">Comments</label>
-                    <textarea class="textarea message" name="message" id="message" rows="6" placeholder="Text input"></textarea>
+                    <label for="user-comment" class="label">Comment</label>
+                    <textarea class="user-comment textarea" name="user-comment" id="user-comment" rows="6" placeholder="Text input"></textarea>
                 </div>
                 <div class="checkbox">
-                    <input class="checkbox-input" type="checkbox" name="checkbox" id="checkbox" value="legal-standarts" required>
-                    <label class="checkbox-label label" for="checkbox">I accept the terms and conditions of the
-                        <span class="label-privacy">
-                            <a class="checkbox-link" href="" target="_blank">Privacy Policy</a>
+                    <input class="checkbox-input visually-hidden" type="checkbox" name="user-privacy" id="user-privacy" value="true" required>
+                    <label class="checkbox-label label" for="user-privacy">
+                        <span class="icon-check-privacy">
+                            <svg class="icon-check" width="10" height="8">
+                                <use href="./images/icons.svg#icon-Vector"></use>
+                            </svg>
                         </span>
+                        I accept the terms and conditions of the
+                        <a href="" class="check-text-pp"> Privacy Policy</a>
                     </label>
                 </div>
                 <button class="hero-button modal-button" type="submit">Send</button>
