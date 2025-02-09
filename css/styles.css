@@ -198,6 +198,7 @@ img {
     letter-spacing: 0.02em;
   }
 }
+/* ---------------------------------mobile-menu ------------------------------*/
 .mobile-menu {
   position: fixed;
   top: 0;
@@ -461,7 +462,6 @@ img {
   padding-bottom: 96px;
 }
 .fitures-list {
-  /* align-items: flex-start; */
   display: flex;
   flex-wrap: wrap;
   gap: 72px;
